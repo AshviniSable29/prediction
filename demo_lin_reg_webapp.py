@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the pickled model
-with open('model.pkl', 'rb') as file:
+with open('model1.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Create the Streamlit web app
